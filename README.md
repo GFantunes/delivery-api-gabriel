@@ -1,9 +1,9 @@
 #  Delivery Tech API
 
-Bem-vindo(a)!  
-Este projeto faz parte do desenvolvimento inicial da **Delivery Tech**, uma startup que está surgindo para competir com grandes plataformas como iFood e Uber Eats 🚀  
+**Projeto acadêmico** desenvolvido como prática de faculdade para a disciplina de **Desenvolvimento Back-end**.  
+O objetivo é criar a base de uma aplicação de delivery inspirada em plataformas como iFood e Uber Eats, usando **Java 21** e **Spring Boot 3.4.x** 
 
-A ideia aqui foi construir a base do sistema de delivery usando **tecnologias modernas** e uma **arquitetura limpa e escalável**, pronta para crescer junto com o produto.
+Este projeto simula o início real de um sistema escalável, com endpoints básicos para health check e informações do serviço.
 
 ---
 
@@ -21,21 +21,24 @@ A ideia aqui foi construir a base do sistema de delivery usando **tecnologias mo
 
 ##  Recursos Modernos do Java 21
 
-Durante o desenvolvimento, foram utilizados diversos recursos modernos da linguagem:
-- **Records** → para representar dados imutáveis de forma simples  
-- **Text Blocks** → para textos multi-linha mais legíveis  
-- **Pattern Matching** → para verificações mais limpas e seguras  
-- **Virtual Threads (JDK 21)** → para melhor desempenho em aplicações escaláveis  
+- **Records** → representação simples de dados imutáveis  
+- **Text Blocks** → strings multi-linha legíveis  
+- **Pattern Matching** → verificações mais limpas e seguras  
+- **Virtual Threads** → melhor desempenho em aplicações escaláveis  
 
 ---
 
-##  Como Executar o Projeto
+##  Como Executar o Projeto Localmente
 
-### Pré-requisitos
-- JDK 21 instalado e configurado  
-- Maven incluso (o projeto já vem com o wrapper `mvnw`)
+###  Pré-requisitos
 
-### Passos
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/delivery-api-seunome.git
+- Ter o **JDK 21** instalado e configurado no seu sistema  
+- Git (opcional, caso queira clonar o projeto)  
+
+---
+
+###  Clonando o projeto (opcional)
+
+```bash
+git clone https://github.com/seuusuario/delivery-api-seunome.git
+cd delivery-api-seunome
